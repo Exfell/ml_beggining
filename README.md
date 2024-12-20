@@ -1,6 +1,9 @@
 # ml_first_projects
 Hey-ya, I need this repository to show the machine learning projects I have found and to show the data work, with explanations of how I go through all the steps from data collection, preprocessing, feature selection, model selection.  
+### "For everything good"  
 [Submarine project](https://github.com/Exfell/ml_beggining/blob/main/projects/submarine_project.ipynb). Use: LogisticRegression. Base  
 [Diabet classification](https://github.com/Exfell/ml_beggining/blob/main/projects/Diabet_classification.ipynb). Use: SVC. Base, still overclocking  
 [Spam Classification](https://github.com/Exfell/ml_beggining/blob/main/projects/spam_classifier.ipynb). Use: Naive Bayes. Также показал использование sklearn.pipeline. First cool, but base  
-[Feature Selection](https://github.com/Exfell/ml_beggining/blob/main/projects/Feature_seleciton.ipynb). Use: logic, RandomForestRegressor, correlational analysis, mutual_info_regression, SelectKBest - so, a saturated project, my pride at the moment. 79 -> 5 features.
+### Feature Selection  
+[In classification](https://github.com/Exfell/ml_beggining/blob/main/projects/Feature%20Selection/classification_easy.ipynb). Use: logic, statistics,  RandomForestClassifier, correlational analysis, VarianceThreshold, MinMaxScaler. 369 -> 5 features. Let me clarify here. If we had a lot of fiches, we would select categorical ones via chi2, numeric ones via mutual_info_classif  
+[In regression](https://github.com/Exfell/ml_beggining/blob/main/projects/Feature%20Selection/regression.ipynb). Use: logic, statistics, TargetEncoder, VarianceThreshold, StandardScaler, mutual_info_regression,correlational analysis,RandomForestRegressor  
